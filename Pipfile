@@ -6,11 +6,14 @@ name = "pypi"
 [packages]
 flask = "*"
 requests = "*"
+psycopg2-binary = "*"
+markupsafe = "*"
 
 [dev-packages]
 pytest = "*"
 pytest-coverage = "*"
 coverage = "*"
+pytest-cover = "*"
 
 [requires]
 python_version = "3.9"

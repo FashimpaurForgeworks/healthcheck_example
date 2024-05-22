@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "8fd2a20e-6126-42fb-b2ac-5c397066756f",
+		"name": "healthcheck_example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18268504",
+		"_collection_link": "https://fashimpaurforgeworks.postman.co/workspace/FashimpaurForgeworks~5cc0c15b-f9cb-4fd5-a768-7c2fd208e61b/collection/18268504-8fd2a20e-6126-42fb-b2ac-5c397066756f?action=share&source=collection_link&creator=18268504"
+	},
+	"item": [
+		{
+			"name": "healthcheck",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/healthcheck/",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"healthcheck",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "localhost",
+			"type": "string"
+		},
+		{
+			"key": "port",
+			"value": "5210",
+			"type": "string"
+		}
+	]
+}
